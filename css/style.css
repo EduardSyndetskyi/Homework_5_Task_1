@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css?family=Montserrat&display=swap');
+@import url('https://fonts.googleapis.com/css?family=PT+Sans&display=swap');
+
+* {
+box-sizing: border-box;
+}
+
+ body {
+     margin: 0px;
+     font-family: 'PT Sans', sans-serif;
+     color: #777;
+     font-size: 14px;
+     line-height: 1.5;
+}
+
+ .container {    
+     margin:0 auto;
+     max-width: 940px;
+     padding: 15px;
+ }
+
+ .Intro_text {
+     text-align: center;
+ }
+
+ h1 {
+    font-family:'Montserrat', sans-serif ;
+    font-weight: 400;
+    font-size: 42px;
+    line-height: 2.14;
+    letter-spacing: 0.1em;
+    color:#0ec8cb;
+    margin: 0;
+}
+
+.Intro_text {
+    margin: 118px 0 111px -74px;
+}
+
+.Intro_WWA{
+    margin-bottom: -4px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 30px;
+    letter-spacing: 0.4em;
+}
+
+.Intro p {
+    font-family: 'PT Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+    letter-spacing: 0.001em;
+    margin: 0;
+    color: #b0b0b0;
+
+}
+
+.features {
+    font-size: 0;
+}
+
+
+.feature,
+.feature_1 {
+    background-color: #f7f7f7;
+    height: 424px;
+    font-size: 14px;
+    display: inline-block;
+    width: 22%;
+    text-align: center;
+    vertical-align:top;
+}
+
+.feature p { 
+    text-align: center;
+    width: 90%;
+    margin: auto;
+}
+
+ .feature h4,
+ .feature_1 h4
+  {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+    color: #1b1b1b;
+    text-transform: uppercase;
+    min-height:62px;
+    display:table;
+    margin: auto;
+ }
+
+ .feature h4 span,
+ .feature_1 h4 span{
+     display: table-cell;
+ }
+
+ .feature i,
+ .feature_1 i {
+    color: #1b1b1b;
+    font-size: 67px;
+    margin: 58px 0 56px 0;
+ }
+
+ .feature_1 i {
+    color: #1b1b1b;
+    font-size: 67px;
+    margin: 58px 0 42px 0;
+
+ }
+
+.padding {
+    padding-top: 23px;
+}
+
+.line {
+    display: inline-block;
+    vertical-align: top;
+    border-left: 2px solid #b0b0b0;
+    height: 423px;
+    position: static;
+    opacity: 0.2;
+}
+
+.feature:hover,
+.feature:hover i,
+.feature:hover p,
+.feature:hover h4{
+    background-color:#0ec8cb ;
+    color: #fff;
+}
+
+.feature_1:hover,
+.feature_1:hover i,
+.feature_1:hover p,
+.feature_1:hover h4 {
+    background-color:#0ec8cb ;
+    color: #fff;
+}
+ 
